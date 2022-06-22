@@ -1,9 +1,10 @@
 {
     "url": "http://sdk.constellaintelligence.com/api/authtoken",
     "method": "POST",
-    "query": [],
+    "httpVersion": "HTTP/1.1",
+    "queryString": [],
     "headers": [],
-    "payload": {
+    "postData": {
         "mimeType": "application/json",
         "text": "{\"client_id\": \"<client_id>\", \"client_secret\": \"<client_secret>\", \"user_id\": \"<username>\", \"age\": 30000}"
     }
