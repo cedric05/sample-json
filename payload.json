@@ -1,6 +1,10 @@
 {
-    "client_id": "<client-id>",
-    "client_secret": "<client-secret>",
-    "user_id": "<username>",
-    "age": 30000
+    "url": "http://sdk.constellaintelligence.com/api/authtoken",
+    "method": "POST",
+    "query": [],
+    "headers": [],
+    "payload": {
+        "mimeType": "application/json",
+        "text": "{\"client_id\": \"<client_id>\", \"client_secret\": \"<client_secret>\", \"user_id\": \"<username>\", \"age\": 30000}"
+    }
 }
